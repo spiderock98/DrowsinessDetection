@@ -10,8 +10,9 @@ import imutils
 from PyQt5 import QtCore, QtGui, QtWidgets
 from scipy.spatial import distance as dist
 import numpy as np
-import playsound
 import dlib
+import subprocess
+# import playsound
 # import winsound
 # from pyfirmata import ArduinoNano, util
 import glob
@@ -188,11 +189,15 @@ class Ui_MainWindow(object):
 
         def sound_alarm():
             # winsound.PlaySound('alarm.wav',winsound.SND_FILENAME)
-            pass
+            # playsound.playsound('alarm.wav')
+            subprocess.call(['afplay', 'alarm.wav'])
+            # pass
 
         def sound_focus():
             # winsound.PlaySound('focus.wav',winsound.SND_FILENAME)
-            pass
+            # playsound.playsound('focus.wav')
+            subprocess.call(['afplay', 'focus.wav'])
+            # pass
 
         def euclidean_dist(ptA, ptB):
             return np.linalg.norm(ptA - ptB)
@@ -238,7 +243,7 @@ class Ui_MainWindow(object):
 
         progressValue('Linking Dropbox API', 7)
         client = dropbox.Dropbox(
-            "unQ5Wyy9mgAAAAAAAAAACiWorvEgb7ytXApRtaMWb5BNdk1gSVCdv3XGclHnnzC6")
+            "unQ5Wyy9mgAAAAAAAAAA1sEqh8yICaR7r0e3F9LL_kXTFYhHoO0cJ3sarfiv8gxx")
 
         progressValue('FPS sclaler', 8)
         fps = FPS().start()
@@ -263,9 +268,11 @@ class Ui_MainWindow(object):
                     tt = Thread(target=sound_focus)
                     tt.setDaemon(True)
                     tt.start()
-                if not FOCUS:
                     cv2.putText(frame, 'TAP TRUNG', (20, 30),
                                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (50, 255, 100), 2)
+                # if not FOCUS:
+                #     cv2.putText(frame, 'TAP TRUNG', (20, 30),
+                #                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (50, 255, 100), 2)
             else:
                 check_eyes = True
             STATE = 1
