@@ -32,10 +32,29 @@
 
 ### Compile dlib on Linux
 
-install compiler tool: `pip install cmake`
+- install compiler tool: `pip install cmake`
 
-compile library: `pip install dlib`
+- compile library: `pip install dlib`
 
+### Giải thuật
+#### Mắt
+```
+if (eye_avr < __EYE_THRESH)
+  enable a eye counter
+  if (eye counter > __CONTINOUS_FRAME_EYE)
+    // definitely buồn ngủ
+else
+  reset the counter when eye_avr is larger than __EYE_THRESH
+```
+#### Miệng
+```
+if (mouth_avr < __MOUTH_THRESH)
+  enable a mouth counter
+  if (mouth counter > __CONTINOUS_FRAME_MOUTH)
+    // definitely ngáp
+else
+  reset the counter when mouth_avr is larger than __MOUTH_THRESH
+```
 ## Thư viện hình ảnh và video
 
 ### Hình ảnh

@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
         self.spinEye.setProperty("value", float(settings.value('spinEye')))
         self.spinEye.setObjectName("spinEye")
         self.lbEyeThread = QtWidgets.QLabel(self.centralwidget)
-        self.lbEyeThread.setGeometry(QtCore.QRect(20, 20, 121, 21))
+        self.lbsEyeThread.setGeometry(QtCore.QRect(20, 20, 121, 21))
         self.lbEyeThread.setObjectName("lbEyeThread")
         self.lbMouthThread = QtWidgets.QLabel(self.centralwidget)
         self.lbMouthThread.setGeometry(QtCore.QRect(10, 60, 131, 31))
