@@ -60,6 +60,8 @@ else
 ### Hình ảnh
 
 <img src="resources/img/FB_IMG_1572273188953.jpg" width="45%"></img>
+<img src="resources/img/anh2-1568589631-width1000height609.jpg" width="45%"></img>
+<img src="resources/img/anh3-1568589689-width1000height667.jpg" width="45%"></img>
 <img src="resources/img/IMAG0014.jpg" width="45%"></img>
 <img src="resources/img/IMAG0020.jpg" width="45%"></img>
 <img src="resources/img/IMAG0021.jpg" width="45%"></img>
@@ -73,9 +75,10 @@ else
 [<img src="http://img.youtube.com/vi/6vOgE5Ps3GM/0.jpg" title="" alt="intro" data-align="center">](http://www.youtube.com/watch?v=6vOgE5Ps3GM "intro 2019")
 
 #### Báo chí truyền thông 
-[Trung tâm Tin tức VTV24 | Sinh viên chế tạo hệ thống cảnh báo ngủ gật cho lái xe](https://www.facebook.com/223790994475363/videos/932651280460774)
-[Sinh viên TP HCM chế tạo hệ thống cảnh báo ngủ gật trên ôtô](https://video.vnexpress.net/tin-tuc/cuoc-song-4-0/sinh-vien-tp-hcm-che-tao-he-thong-canh-bao-ngu-gat-tren-oto-3967151.html)
-[Sinh viên chế tạo hệ thống cảnh báo ngủ gật trên xe ô tô](https://thanhnien.vn/video/phong-su/sinh-vien-che-tao-he-thong-canh-bao-ngu-gat-tren-xe-o-to-154921v.html)
+1. [Trung tâm Tin tức VTV24 | Sinh viên chế tạo hệ thống cảnh báo ngủ gật cho lái xe](https://www.facebook.com/223790994475363/videos/932651280460774)
+2. [vnExpress | Sinh viên TP HCM chế tạo hệ thống cảnh báo ngủ gật trên ôtô](https://video.vnexpress.net/tin-tuc/cuoc-song-4-0/sinh-vien-tp-hcm-che-tao-he-thong-canh-bao-ngu-gat-tren-oto-3967151.html)
+3. [ThanhNien | Sinh viên chế tạo hệ thống cảnh báo ngủ gật trên xe ô tô](https://thanhnien.vn/video/phong-su/sinh-vien-che-tao-he-thong-canh-bao-ngu-gat-tren-xe-o-to-154921v.html)
+4. [GiaoThong | Sinh viên chế tạo camera chống lái xe ngủ gật](https://www.baogiaothong.vn/sinh-vien-che-tao-camera-chong-lai-xe-ngu-gat-d434832.html)
 
 ## Nhóm đóng góp
 
