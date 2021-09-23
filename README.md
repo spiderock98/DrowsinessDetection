@@ -30,11 +30,16 @@
   
   4. [Get Qt - Download now](https://www.qt.io/download)
 
-### Compile dlib on Linux
+### Compile dlib on Linux/MacOS
 
 - install compiler tool: `pip install cmake`
 
 - compile library: `pip install dlib`
+
+### Compile dlib on Windows
+
+- install miniconda
+- install dlib via conda-forge
 
 ### Giải thuật
 #### Mắt
